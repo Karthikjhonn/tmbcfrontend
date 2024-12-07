@@ -1,12 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
+import MainRouter from "./router/MainRouter";
+import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   return (
-    <div className="App">
-      Hello world
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <MainRouter />
+    </>
   );
 }
 
